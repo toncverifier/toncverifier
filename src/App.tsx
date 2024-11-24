@@ -10,12 +10,12 @@ import { CHAIN } from "@tonconnect/protocol";
 import "@twa-dev/sdk";
 
 const StyledApp = styled.div`
-  background-color: #e8e8e8;
+  background-color: #222;
   color: black;
 
   @media (prefers-color-scheme: dark) {
-    background-color: #222;
-    color: white;
+    background-color: #e8e8e8;
+    color: black;
   }
   min-height: 100vh;
   padding: 20px 20px;
@@ -34,13 +34,13 @@ function App() {
       <AppContainer>
         <FlexBoxCol>
           <FlexBoxRow>
+          <TonConnectButton />
            <Button>
               {network
                 ? network === CHAIN.MAINNET
                   ? "TRANSFER OWNERSHIP"
                   : "testnet"
-                : "REAL"}
-            <TonConnectButton />
+                : "REALSHAHNAMEH"}
             </Button>
           </FlexBoxRow>
           <TransferTon />
