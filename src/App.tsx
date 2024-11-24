@@ -37,7 +37,7 @@ function App() {
            <Button>
               {network
                 ? network === CHAIN.MAINNET
-                  ? "SHAHNAMEH"
+                  ? "TRANSFER OWNERSHIP"
                   : "testnet"
                 : "REAL"}
             <TonConnectButton />
