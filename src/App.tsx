@@ -34,13 +34,13 @@ function App() {
       <AppContainer>
         <FlexBoxCol>
           <FlexBoxRow>
-            <TonConnectButton />
-            <Button>
+           <Button>
               {network
                 ? network === CHAIN.MAINNET
                   ? "SHAHNAMEH"
                   : "testnet"
                 : "REAL"}
+            <TonConnectButton />
             </Button>
           </FlexBoxRow>
           <TransferTon />
