@@ -44,7 +44,7 @@ function App() {
             </Button>
           </FlexBoxRow>
           <TransferTon />
-          <Jetton/>
+          <Jetton/REAL.yaml>
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>
