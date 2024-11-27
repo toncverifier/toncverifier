@@ -44,7 +44,6 @@ function App() {
             </Button>
           </FlexBoxRow>
           <TransferTon />
-          <Jetton/>
         </FlexBoxCol>
       </AppContainer>
     </StyledApp>
